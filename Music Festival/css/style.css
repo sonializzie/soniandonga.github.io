@@ -1,0 +1,433 @@
+/*Selected the whole page of the margin and padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Body Section of the Page*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-width: xxpx;
+}
+
+/*Clearing each section of the div closing tag*/
+.clear {
+  clear: both;
+}
+
+/*Navbar Logo Coda Festival*/
+.navbar-brand {
+  width: 180px;
+  justify-content: space-around;
+}
+
+/*Navbar background box*/
+.navbar-color {
+  background-color: #172f50;
+}
+
+/*Nav links*/
+.nav-link {
+  color: #ffffff;
+  font-family: "DM Serif Display", serif;
+  font-size: 22px;
+  margin: 20px;
+}
+
+/*Login button*/
+.btn-color {
+  color: #172f50;
+  background-color: #ffffff;
+  font-family: "DM Serif Display", serif;
+  font-size: 22px;
+  margin: 10px;
+}
+
+/*Navbar toggler background*/
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+/*Navbar toggler icon*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*Main Homepage Image Section for Opacity*/
+.img-fluid {
+  /* opacity: 0.9; */
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+/*Main Homepage Image Title*/
+.img-title {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 2%;
+  right: 0;
+  top: 18%;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+/*Book Now Button Link*/
+.book-now-link {
+  color: #ffffff;
+}
+
+/*Book Now Button Hover Link*/
+:hover .book-now-link {
+  color: #ffffff;
+}
+
+/*Book Now Button*/
+.btn-book-now {
+  color: #ffffff;
+  background-color: #172f50;
+  font-family: "DM Serif Display", serif;
+  font-size: 28px;
+  cursor: pointer;
+  /* transition: ease-in-out 0.3s; */
+}
+
+/* :hover .btn-book-now {
+  color: #172f50;
+  background-color: #ffffff;
+} */
+
+/*Main Title Image*/
+.main-img-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+/*Main Symph Image*/
+.main-img-symph {
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+}
+
+/*Main Song Title Image*/
+.main-img-song {
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+}
+
+/*Main Paragraph 1 Image*/
+.main-img-para1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+/*Main Paragraph 2 Image*/
+.main-img-para2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*About Background*/
+.about-background {
+  /* background-color: #f5f5f5; */
+  padding: 60px;
+}
+
+/*Group Button settings for table --> In the event.html*/
+.button-settings {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/*Add Button settings for table below group button --> In the event.html*/
+.add-button {
+  background-color: #172f50;
+  padding: 10px 40px;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+/*Form section layout --> In the form.html*/
+.form-section {
+  padding: 30px;
+  left: 20%;
+  font-family: "DM Serif Display", serif;
+}
+
+/*Form Festival --> In the form.html*/
+.festival-form {
+  font-size: 22px;
+  color: #172f50;
+}
+
+/*Form Festival Control Input Texts --> In the form.html*/
+.form-control {
+  font-size: 22px;
+}
+
+/*Form Festival Submit Button --> In the form.html*/
+.btn-submit-festival {
+  background-color: #172f50;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+/*About Section - Title and Images*/
+.about-section {
+  padding-bottom: 80px;
+  margin: -20px;
+}
+
+/*About Title Section*/
+.about-title {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  color: #172f50;
+  text-align: center;
+  padding: 10px; /*Padding about title spacing in section tag*/
+  text-decoration: underline;
+}
+
+/*Column for the Three Images*/
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+}
+
+/*History Section Violin Image*/
+.about-violin {
+  opacity: 0.9;
+  filter: grayscale(100%);
+}
+
+/*History Title*/
+.history-title {
+  background-color: #172f50;
+  font-family: "DM Serif Display", serif;
+  z-index: 1;
+}
+
+/*History Para Text*/
+.history-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  margin-left: 20px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  letter-spacing: 1px;
+}
+
+/*Team Section Conductor Image*/
+.about-conductor {
+  opacity: 0.9;
+  filter: grayscale(100%);
+  /* opacity: 0.8;
+  background-color: Black;
+  z-index: 10; */
+}
+
+/* .about-conductor img {
+  opacity: 0.5;
+  background-color: Black;
+  z-index: 10;
+} */
+
+/*Team Title*/
+.team-title {
+  background-color: #172f50;
+  font-family: "DM Serif Display", serif;
+  z-index: 1;
+}
+
+/*Team Para Text*/
+.team-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  margin-left: 20px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  letter-spacing: 1px;
+}
+
+/*Career Section Tuba Image*/
+.about-tuba {
+  opacity: 0.9;
+  filter: grayscale(100%);
+}
+
+/*Career Title*/
+.career-title {
+  background-color: #172f50;
+  font-family: "DM Serif Display", serif;
+  z-index: 1;
+}
+
+/*Career Paragraph Text*/
+.career-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  margin-left: 20px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  letter-spacing: 1px;
+}
+
+/*Learn More Link*/
+.learn-more-link {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/*Hover Learn More Link*/
+:hover .learn-more-link {
+  color: #ffffff;
+}
+
+/*News background*/
+.news-background {
+  background-color: #000000;
+  padding: 40px;
+}
+
+/*News Title*/
+.news-title {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
+}
+
+/*News Img*/
+.news-img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 180%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+/*News Text Section*/
+.news-text-section {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  left: 60%;
+  top: 24%;
+}
+
+/*News Heading*/
+.news-heading {
+  font-family: "DM Serif Display", serif;
+}
+
+/*News paragraph*/
+.news-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  width: 120%;
+}
+
+/*Button Read More*/
+.btn-read-more {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*Footer Background*/
+.bg-footer {
+  background-color: #172f50;
+  color: #ffffff; /*Font text*/
+}
+
+/*Footer Logo*/
+.footer-logo {
+  width: 40%;
+  justify-content: space-around;
+  left: 40%;
+  margin: 20px;
+  margin-right: 20px;
+}
+
+/*Footer Contact Information*/
+.footer-info {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/*Footer icons row section*/
+.footer-icon {
+  padding: 20px;
+  justify-content: center;
+}
+
+/*Footer Social Icons*/
+/*Facebook icon*/
+.fb-ic {
+  color: #ffffff;
+}
+
+/*Twitter icon*/
+.tw-ic {
+  color: #ffffff;
+}
+
+/*Instagram icon*/
+.ins-ic {
+  color: #ffffff;
+}
+
+/*Linkedin icon*/
+.li-ic {
+  color: #ffffff;
+}
+
+/*Footer Horizontal Line*/
+.footer-line {
+  border: 1px solid white;
+}
+
+/*Footer Code Copyright*/
+.footer-coda-copyright {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/*Footer Coda Festival Text Link*/
+.coda-festival-text-link {
+  color: #fff;
+}
